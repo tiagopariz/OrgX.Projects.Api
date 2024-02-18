@@ -6,8 +6,8 @@ public class User(
     Guid? id,
     string username,
     string role,
-    IEnumerable<Project>? projects,
-    IEnumerable<History>? histories)
+    IEnumerable<Project>? projects = null,
+    IEnumerable<History>? histories = null)
     : Entity(id)
 {
     public string Username => username;
