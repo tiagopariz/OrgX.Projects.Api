@@ -1,7 +1,9 @@
 ﻿using OrgX.Projects.Api.WebApi.Enums;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.WebApi.GetModels;
 
+[ExcludeFromCodeCoverage]
 public class TaskGetModel(
     Guid id,
     string title,

@@ -2,10 +2,12 @@
 using Microsoft.Extensions.Configuration;
 using OrgX.Projects.Api.Domain.Entities;
 using OrgX.Projects.Api.Domain.Interfaces.Repositories;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq.Expressions;
 
 namespace OrgX.Projects.Api.Infra.Repositories;
 
+[ExcludeFromCodeCoverage]
 public class UserRepository : IUserRepository
 {
     private readonly DbSet<User> _dbSet;

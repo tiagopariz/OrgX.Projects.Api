@@ -8,9 +8,11 @@ using OrgX.Projects.Api.WebApi.PutModels;
 using OrgX.Tasks.Api.WebApi.GetModels;
 using OrgX.Tasks.Api.WebApi.PostModels;
 using OrgX.Tasks.Api.WebApi.PutModels;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.WebApi.Mapper;
 
+[ExcludeFromCodeCoverage]
 public class WebApiMappingProfile : Profile
 {
     public WebApiMappingProfile()

@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using OrgX.Projects.Api.Application.AppModels;
+using System.Diagnostics.CodeAnalysis;
 using Entities = OrgX.Projects.Api.Domain.Entities;
 
 namespace OrgX.Projects.Api.Application.Mapper;
 
+[ExcludeFromCodeCoverage]
 public static class ApplicationMappingProfile
 {
     public static void CreateApplicationMappingProfile(Profile profile)

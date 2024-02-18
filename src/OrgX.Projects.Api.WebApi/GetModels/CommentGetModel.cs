@@ -1,7 +1,9 @@
 ﻿using OrgX.Projects.Api.WebApi.GetModels;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Tasks.Api.WebApi.GetModels;
 
+[ExcludeFromCodeCoverage]
 public class CommentGetModel(
     Guid id,
     string content,

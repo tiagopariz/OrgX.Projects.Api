@@ -1,7 +1,9 @@
 ﻿using OrgX.Projects.Api.Domain.Core;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Domain.Entities;
 
+[ExcludeFromCodeCoverage]
 public class History(
     Guid? id,
     string entity,

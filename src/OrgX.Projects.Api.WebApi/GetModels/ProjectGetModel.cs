@@ -1,5 +1,8 @@
-﻿namespace OrgX.Projects.Api.WebApi.GetModels;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace OrgX.Projects.Api.WebApi.GetModels;
+
+[ExcludeFromCodeCoverage]
 public class ProjectGetModel(
     Guid id,
     string title,

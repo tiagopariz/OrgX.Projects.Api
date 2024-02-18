@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 using Entities = OrgX.Projects.Api.Domain.Entities;
 
 namespace OrgX.Projects.Api.Infra.Seeds;
 
+[ExcludeFromCodeCoverage]
 public static partial class Seed
 {
     public static void CommentSeed(this ModelBuilder modelBuilder)

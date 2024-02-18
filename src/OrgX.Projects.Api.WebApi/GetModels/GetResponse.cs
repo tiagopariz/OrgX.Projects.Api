@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.WebApi.GetModels;
 
+[ExcludeFromCodeCoverage]
 public class GetResponse<TResults>(
     GetMetadata? metadata,
     TResults? results)

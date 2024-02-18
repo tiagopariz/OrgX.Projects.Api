@@ -3,9 +3,11 @@ using Microsoft.Extensions.Configuration;
 using OrgX.Projects.Api.Domain.Entities;
 using OrgX.Projects.Api.Infra.EntityConfigurations;
 using OrgX.Projects.Api.Infra.Seeds;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Infra;
 
+[ExcludeFromCodeCoverage]
 public class ProjectsDbContext : DbContext
 {
     public virtual DbSet<User> User { get; set; } = null!;

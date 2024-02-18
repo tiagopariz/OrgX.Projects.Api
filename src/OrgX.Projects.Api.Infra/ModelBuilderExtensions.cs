@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Infra;
 
+[ExcludeFromCodeCoverage]
 public static class ModelBuilderExtensions
 {
     public static void RemovePluralizingTableNameConvention(this ModelBuilder modelBuilder)

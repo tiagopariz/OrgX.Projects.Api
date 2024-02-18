@@ -1,5 +1,8 @@
-﻿namespace OrgX.Projects.Api.WebApi.PutModels;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace OrgX.Projects.Api.WebApi.PutModels;
+
+[ExcludeFromCodeCoverage]
 public class UserPutModel(
     Guid id,
     string username,

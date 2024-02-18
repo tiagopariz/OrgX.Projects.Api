@@ -1,5 +1,8 @@
-﻿namespace OrgX.Tasks.Api.WebApi.PostModels;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace OrgX.Tasks.Api.WebApi.PostModels;
+
+[ExcludeFromCodeCoverage]
 public class CommentPostModel(
     string content, 
     Guid taskId)

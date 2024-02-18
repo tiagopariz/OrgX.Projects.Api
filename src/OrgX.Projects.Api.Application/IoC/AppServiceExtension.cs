@@ -1,9 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using OrgX.Projects.Api.Domain.Interfaces.Repositories;
 using OrgX.Projects.Api.Infra.Repositories;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Application.IoC;
 
+[ExcludeFromCodeCoverage]
 public static class AppServiceExtension
 {
     public static IServiceCollection AddApplicationInfraServices(this IServiceCollection services)

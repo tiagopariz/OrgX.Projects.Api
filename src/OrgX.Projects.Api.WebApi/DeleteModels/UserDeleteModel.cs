@@ -1,5 +1,8 @@
-﻿namespace OrgX.Projects.Api.WebApi.DeleteModels;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace OrgX.Projects.Api.WebApi.DeleteModels;
+
+[ExcludeFromCodeCoverage]
 public class UserDeleteModel(
     Guid id,
     string username,

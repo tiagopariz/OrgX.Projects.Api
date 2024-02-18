@@ -1,9 +1,11 @@
 ﻿using OrgX.Projects.Api.Application.AppServices;
 using OrgX.Projects.Api.Application.AppInterfaces;
 using OrgX.Projects.Api.Application.IoC;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.WebApi.IoC;
 
+[ExcludeFromCodeCoverage]
 public static class WepApiServiceExtension
 {
     public static IServiceCollection AddWebApiApplicationServices(this IServiceCollection services)

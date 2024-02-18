@@ -1,7 +1,9 @@
 ﻿using OrgX.Projects.Api.WebApi.Enums;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.WebApi.PostModels;
 
+[ExcludeFromCodeCoverage]
 public class TaskPostModel(
     string title, 
     string detail,

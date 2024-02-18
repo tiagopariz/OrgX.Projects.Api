@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using OrgX.Projects.Api.Domain.Entities;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Infra.EntityConfigurations;
 
+[ExcludeFromCodeCoverage]
 public class HistoryEntityConfiguration : IEntityTypeConfiguration<History>
 {
     public void Configure(EntityTypeBuilder<History> builder)

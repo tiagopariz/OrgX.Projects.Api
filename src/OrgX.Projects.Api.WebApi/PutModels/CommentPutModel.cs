@@ -1,5 +1,8 @@
-﻿namespace OrgX.Tasks.Api.WebApi.PutModels;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace OrgX.Tasks.Api.WebApi.PutModels;
+
+[ExcludeFromCodeCoverage]
 public class CommentPutModel(
     Guid id,
     string title,

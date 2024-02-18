@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using Entities = OrgX.Projects.Api.Domain.Entities;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Infra.EntityConfigurations;
 
+[ExcludeFromCodeCoverage]
 public class TaskEntityConfiguration : IEntityTypeConfiguration<Entities.Task>
 {
     public void Configure(EntityTypeBuilder<Entities.Task> builder)

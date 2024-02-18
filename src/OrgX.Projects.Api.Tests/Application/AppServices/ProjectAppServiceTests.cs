@@ -5,11 +5,6 @@ using OrgX.Projects.Api.Application.AppServices;
 using Entities = OrgX.Projects.Api.Domain.Entities;
 using OrgX.Projects.Api.Domain.Entities;
 using OrgX.Projects.Api.Domain.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Linq.Expressions;
 
 namespace OrgX.Projects.Api.Tests.Application.AppServices;

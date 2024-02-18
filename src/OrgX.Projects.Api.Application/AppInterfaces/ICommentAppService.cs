@@ -2,6 +2,7 @@
 
 namespace OrgX.Projects.Api.Application.AppInterfaces;
 
+
 public interface ICommentAppService
 {
     void Add(CommentAppModel entity);

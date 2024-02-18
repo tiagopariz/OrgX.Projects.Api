@@ -3,9 +3,11 @@ using System.Linq.Expressions;
 using OrgX.Projects.Api.Domain.Interfaces.Repositories;
 using Microsoft.Extensions.Configuration;
 using OrgX.Projects.Api.Domain.Entities;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OrgX.Projects.Api.Infra.Repositories;
 
+[ExcludeFromCodeCoverage]
 public class CommentRepository : ICommentRepository
 {
     private readonly DbSet<Comment> _dbSet;
