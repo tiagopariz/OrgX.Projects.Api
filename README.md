@@ -19,6 +19,8 @@ Authentication: SQL Server Authentication
 Login: sa
 Password: Local@123
 
+# Refinamento
+
 
 ## Perguntas para refinamento de novas funcionalidades
 
@@ -36,3 +38,12 @@ Password: Local@123
 12. Precisamos envolver outras áreas de desenvolvimento, como por exemplo UX?
 13. Quais são os casos de uso ou fluxos de trabalho específicos que a funcionalidade deve suportar?
 14. Quais são os requisitos de escalabilidade ou desempenho que devemos considerar ao desenvolver a funcionalidades?
+
+## Formulário Técnico
+
+1. Quais classes serão alteradas e/ou adicionadas?
+2. Qual os métodos serão alteradas e/ou adicionadas?
+3. Qual o projeto e a solução que serão modificados?
+4. Qual a URL do ambiente de homologação?
+5. Forneça dois cenários de testes, com o exemplo de entrada e saída esperados.
+7. Quais as URLs das ferramentas de observabilidade serão necessárias para pós produção?
